@@ -3,3 +3,4 @@ services:
     context: ./
     dockerfile: .voyage/Dockerfile
     primary: true
+    exposePort: 80

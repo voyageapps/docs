@@ -4,6 +4,8 @@ WORKDIR /app
 
 RUN npm i -g retypeapp
 
+COPY . .
+
 RUN retype build
 
 FROM nginx
