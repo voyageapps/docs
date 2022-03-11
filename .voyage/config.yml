@@ -1,0 +1,5 @@
+services:
+  app:
+    context: ./
+    dockerfile: .voyage/Dockerfile
+    primary: true
