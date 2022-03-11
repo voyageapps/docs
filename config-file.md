@@ -13,7 +13,7 @@ Pick and choose which options are for you depending on your project.
 services:
   app:
     # Base image to use to build app
-    image: node:12.19.0-alpine3.10
+    image: node
     # Providing commands to build app w/out a Dockerfile
     # Voyage will run these commands inside the base image above
     commands:
