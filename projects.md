@@ -19,9 +19,6 @@ When creating a custom deployment, you can provide a Github url to a project tha
 a voyage preset or contains a Voyage config file. Once I connect the repo, I can select the branch that
 I would like to deploy with Voyage.
 
-When deploying a custom deployment it must either adhear to a Voyage preset or contain a Voyage
-configuration file, otherwise it will not deploy.
-
 # Connecting Projects
 
 You may manage access to various repositories within organizations you have access to by
